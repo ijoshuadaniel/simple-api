@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.containers {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.containers .image {
+  width: 80%;
+}
+
+.containers .image img {
+  width: 90%;
+}
+
+.containers .route {
+  width: 20%;
+}
+
+.containers .route p {
+  font-size: 20px;
+}
+
+.containers .route span {
+  font-size: 18px;
+}
+
+.containers .route span a {
+  color: black;
+}
